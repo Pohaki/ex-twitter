@@ -16,23 +16,54 @@ header .content{
 header .content .left{
   display: inline-block;
   width: 30%;
-  height: 5vh;
-}
-header .content .right{
-  display: inline-block;
-  float: right;
-  width: 30%;
   height: 60px;
+  position: relative;
 }
 header .content .left li{
   width: 100px;
-  display: inline;
+  display: inline-block;
+  line-height: 39px;
   list-style: none;
+  font-family: sans-serif;
+  font-size: 1.05em;
+  transition: border-bottom 0.2s ease-out;
+  box-sizing: border-box;
+}
+header .content .left li a{
+  border-color: #55acee;
+  text-decoration: none;
+  color: #777777;
+}
+header .content .left li:hover{
+  border-bottom: 5px solid #55acee;
+}
+header .content .left li:first-child{
+  padding-left: 35px;
+}
+header .content .left li:last-child{
+  padding-left: 15px;
 }
 header .content .left li:first-child:before{
   content: url(../img/logo.png);
   width:30px;
   height: 30px;
+  position: absolute;
+  left: 42px;
+  top: 20px;
+}
+header .content .right{
+  display: inline-block;
+  float: right;
+  width: 20%;
+  height: 60px;
+}
+header .content .right a{
+  display: inline-block;
+  color: #777777;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  margin-top: 10%;
 }
 header .content .right .lang-list{
   visibility: hidden;
@@ -184,6 +215,9 @@ header .content .right .lang-list{
   border: 1px solid #E99110;
   background-image: linear-gradient(to top,#E99110, #FDC849);
   color:#444444;
+}
+.container .inscription button{
+  clear: both;
 }
 footer{
   clear: both;
