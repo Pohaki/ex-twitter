@@ -53,17 +53,25 @@ header .content .left li:first-child:before{
 }
 header .content .right{
   display: inline-block;
+
   float: right;
   width: 20%;
   height: 60px;
 }
 header .content .right a{
   display: inline-block;
+  position: relative;
   color: #777777;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 0.75em;
   margin-top: 10%;
+}
+header .content .right a:after{
+  content: url(../img/a_down.png);
+  position: absolute;
+  top:0;
+  right: -20px;
 }
 header .content .right .lang-list{
   visibility: hidden;
