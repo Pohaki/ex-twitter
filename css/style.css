@@ -7,7 +7,7 @@ body{
 header{
   width: 100%;
   background-color: #FFFFFF;
-  height: 5vh;
+  height: 60px;
 }
 header .content{
   margin: 0px auto;
@@ -22,7 +22,7 @@ header .content .right{
   display: inline-block;
   float: right;
   width: 30%;
-  height: 5vh;
+  height: 60px;
 }
 header .content .left li{
   width: 100px;
@@ -43,7 +43,7 @@ header .content .right .lang-list{
   margin: 0px auto;
   }
 .container .left{
-  width: 48%;
+  width: 45%;
   float:left;
   margin-top: 6vh;
   color: #FFFFFF;
@@ -51,7 +51,7 @@ header .content .right .lang-list{
   font-size: 1.25em;
 }
 .container .right{
-  width: 48%;
+  width: 45%;
   float:right;
   margin-top: 10vh;
 }
@@ -64,11 +64,127 @@ header .content .right .lang-list{
   font-size: 2em;
 }
 .container .left p{
-  font-size: 1.2em;
+  line-height: 35px;
+  font-size: 1.1em;
+}
+.container .left .bottom p{
+  font-size: 0.9em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container .left .bottom p:first-child{
+  margin-top: 40%;
+}
+.container .left .bottom p:nth-child(2){
+  margin-top: 3.5%;
+}
+/* Container Droit */
+.container .right .connexion{
+  height: 30%;
+  width: 73%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 15px 18px;
+}
+.container .right .connexion #id{
+  height: 35px;
+  width: 97%;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size:1.15em;
+  padding: 0px 5px;
+}
+.container .right .connexion .line-pw{
+  height: 35px;
+}
+.container .right .connexion #pw{
+  height: 35px;
+  width: 55%;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size:1.15em;
+  padding: 0px 5px;
+}
+.container .right .connexion button{
+  height: 38px;
+  width: 38%;
+  float: right;
+  border: 1px solid #449BCC;
+  border-radius: 5px;
+  background-color: #55acee;
+  margin-left:1.5%;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 1.15em;
+}
+.container .right .connexion .remember{
+  line-height: 30px;
+  margin-top: 10px;
+}
+.container .right .connexion .remember input{
+  clear: both;
+  width: 15px;
+  height: 15px;
+}
+.container .right .connexion .remember label{
+  font-family: sans-serif;
+  color: #999999;
+  font-size: 0.9em;
+}
+.container .right .connexion .remember a{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #55ACEE;
+  font-size: 0.95em;
 }
 
-/* Container Droit */
+.container .inscription {
+  height: 230px;
+  width: 81%;
+  margin-top: 3%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-family: sans-serif;
 
+}
+.container .inscription h3{
+  padding: 9px 10px 9px 25px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.container .inscription h3 .grey{
+  color:#888888;
+  font-weight: 200;
+  font-size:0.9em;
+}
+
+.container .inscription input{
+  width: 90%;
+  height: 35px;
+  padding: 0px 5px;
+  margin-left:12px;
+  margin-bottom: 5px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size:1.15em;
+}
+.container .inscription button{
+  float: right;
+  height: 35px;
+  margin-top: 5px;
+  margin-right: 15px;
+  padding: 0px 8px;
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #E99110;
+  background-image: linear-gradient(to top,#E99110, #FDC849);
+  color:#444444;
+}
 footer{
   clear: both;
   width: 75%;
